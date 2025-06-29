@@ -27,8 +27,8 @@ Este proyecto es el backend de un sistema hospitalario que permite gestionar usu
 1. Clona el repositorio:
 
 
-git clone https://github.com/TuUsuario/backend-hospital.git
-cd backend-hospital
+git clone https://github.com/TuUsuario/backend-mechaca.git
+cd backend-mechaca
 
 
 2. Instala las dependencias:
@@ -80,15 +80,25 @@ Authorization: Bearer <tu_token>
 ## 📁 Estructura del proyecto
 
 /backend
+
 │
+
 ├── config/           # Conexión a Supabase (db.go)
+
 ├── handlers/         # Lógica de endpoints (auth.go, users.go, etc.)
+
 ├── middleware/       # Autenticación y validaciones
+
 ├── models/           # Estructuras de datos (User, etc.)
+
 ├── routes/           # Definición de rutas API
+
 ├── utils/            # Funciones JWT y herramientas auxiliares
+
 ├── main.go           # Archivo principal
+
 ├── .env              # Variables de entorno (NO subir a Git)
+
 └── .gitignore
 
 
